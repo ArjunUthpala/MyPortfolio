@@ -1,0 +1,179 @@
+/* @media (max-width: 1200px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+} */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@keyframes videoAnimation {
+  from {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  to {
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@keyframes reverse {
+  from {
+    background-color: black;
+    color: white;
+  }
+  to {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  columns: black;
+  background-color: rgb(255, 255, 255);
+  /*height: 50cm;*/
+}
+
+.banner {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  vertical-align: middle;
+}
+
+/*.img {
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}*/
+
+.sections {
+  display: flex;
+  flex-direction: inherit;
+
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  height: fit-content;
+  animation-name: reverse;
+  animation-duration: 0.25s;
+}
+
+.div {
+  width: 100%;
+}
+
+.sections:hover {
+  /* background-color: black;
+  color: white; */
+  animation-name: videoAnimation;
+  animation-duration: 0.25s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  /*animation: backwards;*/
+}
+
+.davinci {
+  align-self: flex-start;
+  margin: 5px;
+}
+
+.davincivideo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  margin: 15px;
+  height: 315px;
+}
+
+.vid {
+  height: 100%;
+  width: 85%;
+}
+
+@media (max-width: 1200px) {
+  .videobanner {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  padding: 25px 25px 25px;
+}
+
+.name {
+  font-size: 75px;
+  font-weight: bold;
+  font-family: "Poppins";
+}
+
+.myposition {
+  font-size: 50px;
+  font-family: "Poppins";
+  text-align: left;
+}
+
+.describe {
+  font-size: 35px;
+  display: flex;
+  font-family: "Poppins";
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 20px;
+}
+
+.info {
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1cm 1cm;
+}
+
+.nav {
+  font-size: 30px;
+  font-family: "Poppins";
+  padding: 1cm;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.mainnav {
+  background-image: url("./Photos/nav.jpg");
+  font-size: 20px;
+  font-family: "Poppins";
+  color: white;
+  padding: 1cm 1cm;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+}
