@@ -76,7 +76,7 @@ body {
   animation-duration: 0.25s;
   border-radius: 25px;
 
-width:95%  
+width:99%  
 }
 
 .div {
@@ -141,13 +141,14 @@ width:95%
 }
 
 .myposition {
-  font-size: 50px;
+  font-size: 45px;
   font-family: "Poppins";
   text-align: left;
+  width:95%;
 }
 
 .describe {
-  font-size: 35px;
+  font-size: 30px;
   display: flex;
   font-family: "Poppins";
   flex-wrap: wrap;
