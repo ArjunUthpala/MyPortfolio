@@ -303,3 +303,8 @@ border-width:medium;
   color: black;
 
 }
+
+.car{
+	border-style: solid;
+	border-radius:25px;
+}
