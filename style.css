@@ -132,6 +132,19 @@ width:99%
   vertical-align: middle;
   flex-wrap: wrap;
   padding: 25px 25px 25px 25px;
+  
+}
+
+.navcontainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  vertical-align: right;
+  flex-wrap: wrap;
+  padding: 1cm ;
+  padding-left:0px;
+
+  
 }
 
 .name {
@@ -209,6 +222,7 @@ width:99%
     flex-direction: column;
     align-content: center;
     justify-content: center;
+	
   }
   
   .box{
@@ -216,17 +230,19 @@ width:99%
 	padding: 10px 10px 2.5px 10px;
 	height: 100px;
 	border-radius:10px;
-border-width:medium;
-	
+border-width:small;
+text-align:center;
+	justify-content: space-between;
 }
 }
 
 .box{
 	border-style: outset;
-	padding: 10px 10px 2.5px 10px;
+	padding: 10px 10px 5px 10px;
 	height: 40px;
 	border-radius:10px;
 border-width:medium;
+
 	
 }
 
@@ -244,12 +260,17 @@ border-width:medium;
 }
 
 .splitnav{
-
+  padding: 1cm;
   display: flex;
     align-self: center;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
+    /*justify-content: center;*/
+	flex-wrap: nowrap;
+  justify-content: space-evenly;
+  font-size: 20px;
+  
+  
 }
 
 @media (max-width: 1200px) {
@@ -261,11 +282,19 @@ border-width:medium;
 
 	font-size: 20px;
   font-family: "Poppins";
-  padding: 1cm;
+  padding: 2cm;
   flex-wrap: nowrap;
+  width:40%;
+  
 
-  justify-content: space-evenly;
 
+ /* justify-content: space-evenly;
+
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-content: center;*/
+    justify-content: center;
   }
   
 .navsection {
